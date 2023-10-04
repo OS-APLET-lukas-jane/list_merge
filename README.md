@@ -1,7 +1,5 @@
 # List Merge
 
-## Description
-
 `list_merge` is a Python tool designed to merge wordlists based on a predefined password policy. It ensures that the merged list only contains passwords that meet specific criteria, such as the inclusion of uppercase and lowercase letters, numbers, and special characters.
 
 For example, Rockyou and SecLists result in a 48mb wordlist compared to roughly 900mb.
@@ -11,6 +9,8 @@ For example, Rockyou and SecLists result in a 48mb wordlist compared to roughly 
 - Merges multiple wordlists into a single list
 - Filters out passwords that don't meet the defined policy
 - Supports both single file and directory-based wordlist merging
+
+[![Bandit](https://github.com/0xdreadnaught/list_merge/actions/workflows/bandit.yml/badge.svg)](https://github.com/0xdreadnaught/list_merge/actions/workflows/bandit.yml)
 
 ## Installation
 
