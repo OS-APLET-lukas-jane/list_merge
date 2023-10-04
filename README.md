@@ -9,7 +9,7 @@ For example, Rockyou and SecLists result in a 48mb wordlist compared to roughly 
 ## Features
 
 - Merges multiple wordlists into a single list
-- Filters out passwords that don't meet the local Windows policy
+- Filters out passwords that don't meet the defined policy
 - Supports both single file and directory-based wordlist merging
 
 ## Installation
